@@ -8,14 +8,14 @@ The goals of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./test_images_output/Original.JPG "Raw Image"
-[image2]: ./test_images_output/yellow_filter.JPG "Yellow Filter"
-[image3]: ./test_images_output/white_filter.JPG "White Filter"
+[image2]: ./test_images_output/yellow_filter.jpg "Yellow Filter"
+[image3]: ./test_images_output/white_filter.jpg "White Filter"
 [image4]: ./test_images_output/combined_Image.PNG "Combined Yellow and White Filters"
-[image5]: ./test_images_output/gaussian_gray.JPG "Gaussian Gray"
-[image6]: ./test_images_output/canny_edge.JPG "Canny Edge Detection"
+[image5]: ./test_images_output/gaussian_gray.jpg "Gaussian Gray"
+[image6]: ./test_images_output/canny_edge.jpg "Canny Edge Detection"
 [image7]: ./test_images_output/masking_roi.JPG "Region of Interest"
 [image8]: ./test_images_output/hough_lines.PNG "Hough Lines"
-[image9]: ./test_images_output/final_image.JPG "Final Lines"
+[image9]: ./test_images_output/final_image.jpg "Final Lines"
 
 ---
 
