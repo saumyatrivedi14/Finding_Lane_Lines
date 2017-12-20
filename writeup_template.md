@@ -13,9 +13,7 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/Original.jpg "Original"
 
 ---
 
