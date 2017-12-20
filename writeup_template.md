@@ -39,6 +39,26 @@ The goals of this project are the following:
 
 ![alt text][image4]
 
+* The combined image is then converted to grayscale and Gaussian smoothing of kernel size 9 is applied and the output is shown below.
+
+![alt text][image5]
+
+* Canny Edge Detection is used to find the edges from the grayscaled image as shown in the figure below.
+
+![alt text][image6]
+
+* Region of interest is filtered out by using the build in functions.
+
+![alt text][image7]
+
+* Hough's Lines are ofund using the cv2.HoughLinesP() function given in build in functions.
+
+![alt text][image8]
+
+* Finally those lines are expolated and using statistical tools, final two lane lines are found.
+
+![alt text][image9]
+
 
 ### 2. Identify potential shortcomings with your current pipeline
 
