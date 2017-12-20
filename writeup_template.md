@@ -5,7 +5,6 @@ The goals of this project are the following:
 * Make a pipeline that finds lane lines on the statetic images of road
 * Incorporate the same pipeline in videos.
 
----
 [//]: # (Image References)
 
 [image1]: ./test_images_output/Original.JPG "Raw Image"
@@ -24,9 +23,21 @@ The goals of this project are the following:
 
 ### 1. Pipeline Steps Explained
 
-First it takes the raw image as shown below.
+* First it takes the raw image as shown below.
 
 ![alt text][image1]
+
+* Using RGB to HSL color space conversion, Yellow shades are filtered out as shown in figure below.
+
+![alt text][image2]
+
+* Same way, filter out the white lanes in an image.
+
+![alt text][image3]
+
+* Combining both these images, will give both yellow and white lanes in an image.
+
+![alt text][image4]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
