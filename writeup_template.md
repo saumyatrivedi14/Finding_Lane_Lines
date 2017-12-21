@@ -62,8 +62,8 @@ The goals of this project are the following:
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-There are three shortcomings of the current pipeline, first, in the challenge video, It does not find the find lanes under shadows because that particular gradient is not being incorporated in the white filter which is being applied initially. Second, The lines do not remain smooth between each frames in the video, I tried standard deviation technique and also thought of moving average but still the output is not smooth enough. Third, It does not account the curves on the road, which I think will be done in the Advance Lane Finding Project in coming weeks.
+There are three shortcomings of the current pipeline, first, in the challenge video, It does not find the find lanes under shadows and on brigde because some further calibration of parameters is required and also the gradient range of yellow and white filter needs to be improved. Second, The lines do not remain smooth between each frames in the video, I tried standard deviation technique and also thought of moving average but still the output is not smooth enough. Third, It does not account the curves on the road, which I think will be taught in the Advance Lane Finding Project in coming weeks.
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvements are to implement an algorithm which takes in different gradients of yellow and white (under shadows) intelligently and keeps curved lane lines for curve roads.
+A possible improvements are to implement an algorithm which takes in different gradients of yellow and white (under shadows or over brigde) intelligently and keeps curved lane lines for curve roads.
