@@ -7,15 +7,22 @@ The goals of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./test_images_output/Original.JPG "Raw Image"
-[image2]: ./test_images_output/yellow_filter.jpg "Yellow Filter"
-[image3]: ./test_images_output/white_filter.jpg "White Filter"
-[image4]: ./test_images_output/combined_Image.PNG "Combined Yellow and White Filters"
-[image5]: ./test_images_output/gaussian_gray.jpg "Gaussian Gray"
-[image6]: ./test_images_output/canny_edge.jpg "Canny Edge Detection"
-[image7]: ./test_images_output/masking_roi.JPG "Region of Interest"
-[image8]: ./test_images_output/hough_lines.PNG "Hough Lines"
-[image9]: ./test_images_output/final_image.jpg "Final Lines"
+[image1]: ./test_images_output/Pipeline/Original.JPG "Raw Image"
+[image2]: ./test_images_output/Pipeline/yellow_filter.jpg "Yellow Filter"
+[image3]: ./test_images_output/Pipeline/white_filter.jpg "White Filter"
+[image4]: ./test_images_output/Pipeline/combined_Image.PNG "Combined Yellow and White Filters"
+[image5]: ./test_images_output/Pipeline/gaussian_gray.jpg "Gaussian Gray"
+[image6]: ./test_images_output/Pipeline/canny_edge.jpg "Canny Edge Detection"
+[image7]: ./test_images_output/Pipeline/masking_roi.JPG "Region of Interest"
+[image8]: ./test_images_output/Pipeline/hough_lines.PNG "Hough Lines"
+[image9]: ./test_images_output/Pipeline/final_image.jpg "Final Lines"
+[image10]: ./test_images_output/solidWhiteCurve.JPG "solidWhiteCurve"
+[image11]: ./test_images_output/solidWhiteRight.JPG "solidWhiteRight"
+[image12]: ./test_images_output/solidYellowCurve.JPG "solidYellowCurve"
+[image13]: ./test_images_output/solidYellowCurve2.JPG "solidYellowCurve2"
+[image14]: ./test_images_output/solidYellowLeft.JPG "solidYellowLeft"
+[image15]: ./test_images_output/whiteCarLaneSwitch.JPG "whiteCarLaneSwitch"
+
 
 ---
 
@@ -67,3 +74,13 @@ There are three shortcomings of the current pipeline, first, in the challenge vi
 ### 3. Suggest possible improvements to your pipeline
 
 A possible improvements are to implement an algorithm which takes in different gradients of yellow and white (under shadows or over brigde) intelligently and keeps curved lane lines for curve roads.
+
+### 4. Output of Test Images
+
+![alt text][image10]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
+![alt text][image14]
+![alt text][image15]
+
